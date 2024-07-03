@@ -8,11 +8,11 @@
       "name": "Test Flavor Dev",
       "request": "launch",
       "type": "dart",
-      "program": "lib/main.dart",
+      "program": "lib/main_dev.dart",
       "args": ["--flavor", "dev"]
     },
     {
-      "name": "Test Flavor Dev Prod",
+      "name": "Test Flavor Prod",
       "request": "launch",
       "type": "dart",
       // "flutterMode": "release"

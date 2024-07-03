@@ -7,12 +7,12 @@ import 'package:test_flavor/config/flavor_type_config.dart';
 
 Future<void> main() async {
   // LOAD ENV
-  await dotenv.load(fileName: ".env");
+  await dotenv.load(fileName: ".dev.env");
 
   // Initialize your AppConfig
   final prodAppConfig = AppConfig(
     appName: 'Test Flutter Flavor',
-    flavor: FlavorType.prod,
+    flavor: FlavorType.dev,
   );
 
   // Set the global AppConfig
